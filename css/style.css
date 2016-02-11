@@ -154,7 +154,7 @@ h1.slide-logo{
     font-size: 70px;
 }
 h2.slide-btm-text{
-     font-family: 'Lato', sans-serif !important;
+     font-family: 'Proxima Nova', sans-serif !important;
     text-align: center;
     margin: 30px 0;
     font-weight: 300;
@@ -210,7 +210,7 @@ text-transform: uppercase;
 font-size: 14px;
 letter-spacing: .1em;
 font-weight: 400;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Proxima Nova', sans-serif;
 }
 
 /*.navbar-default .navbar-nav > li > a:hover {
@@ -231,7 +231,7 @@ color: #fff !important;
     color:#000;
     margin:0px;
     font-size: 32px;
-    font-family: 'Lato', sans-serif !important;
+    font-family: 'Proxima Nova', sans-serif !important;
 }
 .navbar-brand:hover{
     color:#000 !important;
