@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bronco Startup Challenge</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="icon" href="assets/favicon.ico">
+        <!--bootstrap css-->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!--custom css-->
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <!--flex slider css-->
+        <link href="css/flexslider.css" rel="stylesheet">
+        <!--google web fonts css-->
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+        <!--ion icons css-->
+        <link href="css/ionicons.css" rel="stylesheet">
+        <!--animated css-->
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="css/timeline.css" rel="stylesheet">
+        <link href="css/plane.css" rel="stylesheet">
+        <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+        <link href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css" rel="stylesheet">
+
+        <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+    <style type="text/css">
+    ul#menu-utility-navigation {
+  width: 100%;
+}
+
+ul#menu-utility-navigation li {
+  text-align: center;
+}
+
+.btn-theme{
+    color:#fff;
+    background-color:black;
+    padding:15px 90px;
+    font-size:28px;
+    font-weight:300;
+    text-transform:uppercase;
+    border:none;
+    border-radius:0;
+    -webkit-transition:background-color 0.2s ease-out;
+    transition:background-color 0.2s ease-out;
+}
+
+.btn-theme:hover{
+    cursor:pointer;
+    color:#fff;
+    background-color:#b4d695;
+}
+
+.btn-theme:active,
+.btn-theme:focus{
+    color:#fff;
+}
+
+
+.btn-theme [class*=icon]{
+    margin-right:10px;
+}
+
+
+.btn-theme.transparent{
+    color:#fff;
+    background-color:transparent;
+    padding:25px 49px;
+    border:2px solid #fff;
+    font-weight:400;
+    -webkit-transition:all 0.3s ease-out;
+    transition:all 0.3s ease-out;
+}
+
+.btn-theme.transparent:hover,
+.btn-theme.transparent:focus,
+.btn-theme.transparent:active{
+    color:black;
+    background-color:#fff;
+    border:2px solid #fff;
+    opacity:1;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+
+}
+a.finally:active,
+a.finally:hover,
+a.finally:focus {
+    outline: 0;
+    background: transparent;
+    color: white !important;
+    text-decoration: none;
+}
+#centered{
+    margin: auto;
+    text-align: center;
+}
+    </style>
+   <script type="text/javascript">
+
+function confidence(){
+    var meat = document.getElementById("red");
+    meat.style.visibility = "visible";
+}
+
+   </script>
+    </head>
+    <body data-spy="scroll" data-target="#navigation" data-offset="80">
+
+        <section id="splash">
+            <div class="parallax-overlay" style="z-index:-2;"></div>
+            <!-- <div class="home-content text-center"> -->
+            <!--525px by 241px -->
+                <div class="container" style="padding-top:160px;margin-bottom:-112px;z-index:-1">
+                    <div class=" slide-logo" style="color:#2ecc71; text-align:center;"><img src="assets/horsehead.png"style="width:197.675px;height:136.62px;"></div></br>
+                     <h1 class=" slide-logo" style="color:white; text-align:center;"><b>Bronco Startup Challenge</b></h1>
+                    <div class="main-flex-slider" style="margin-top:-20px;">
+                        <ul class="slides">
+                            <li>
+                                <h1 style="color:white;">Dare To Think Bigger.</h1>
+
+                            </li>
+                            <li>
+                                <h1 style="color:white;">Create A Business Plan.</h1>
+
+                            </li>
+                            <li>
+                                <h1 style="color:white;">Earn Up To $10000</h1>
+
+                            </li>
+                        </ul>
+                    </div>
+                  <div id="bigboy" style="text-align:center;margin-top:20px;z-index:10000;"><a href="#pricing" class="btn btn-lg btn-theme-color"> Submit Now</a></div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <section id="navigation">
+            <div class="navbar navbar-default navbar-static-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="assets/horsehead1.png" style="width:64.5px;height:43.2px;vertical-align: middle;margin-top:-10px;">BSC</a>
+                        <!--<img src="assets/1KPL.png" style="width:104.8px;height:48px;vertical-align: middle;"></div>-->
+                    </div>
+                    <div class="navbar-collapse collapse">
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#splash">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#pricing">Pitch</a></li>
+                            <!-- <li><a href="#work">Videos</a></li> -->
+                            <li><a href="#timeline1">Timeline</a></li>
+                            <li><a href="#services">Partners</a></li>
+                            <li><a href="#judges">Judges</a></li>
+
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+
+                    </div><!--/.nav-collapse -->
+                </div><!--/.container -->
+            </div>
+        </section><!--navigation section end here-->
+        <section id="about" class="padding-80">
+
+            <!--about page content-->
+            <div class="about-section" style="margin-bottom:80px;">
+                <div class="container">
+                    <div class="section-heading text-center">
+                        <h4 class="small section-title"><span>What is the Bronco Startup Challenge?</span></h4>
+                        <h2 class="large section-title">About the Competition</h2>
+                    </div><!--section heading-->
+
+                </div><!--container-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="about-box wow animated fadeInDown" data-wow-duration="0.3s">
+                                <div class="about-box-icon">
+                                    <i class="ion-clipboard"></i>
+                                </div>
+                                <div class="about-box-text">
+                                    <h4>3 Month Business Competition</h4>
+                                    <p>
+                                        The Bronco Startup Challenge is a business competition designed to encourage students from different backgrounds, specialties, and expertise to create a unified vision. From ideation to business plan and beyond, the competition is designed to grow the horizons of innovative students. It is about startups, young and innovative companies who aim to disrupt and change the status quos. 
+                                    </p>
+                                </div>
+                            </div><!--about us box end-->
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="about-box wow animated fadeInDown" data-wow-delay="0.5">
+                                <div class="about-box-icon">
+                                    <i class="ion-lightbulb"></i>
+                                </div>
+                                <div class="about-box-text">
+                                    <h4>$10,000 in cash for your startup idea.</h4>
+                                    <p>1ST PLACE - $4,000 cash <br> 2ND PLACE - $3,000 cash <br> 3RD PLACE - $2,000 cash <br> BONUS: CROWD FAVORITE - $1,000 cash
+                                    </p>
+                                </div>
+                            </div><!--about us box end-->
+                        </div>
+                    </div><!--about services row end-->
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="about-box wow animated fadeInDown" data-wow-delay="0.6s">
+                                <div class="about-box-icon">
+                                    <i class="ion-ios7-calendar-outline"></i>
+                                </div>
+                                <div class="about-box-text">
+                                    <h4>Schedule of the Competition </h4>
+                                    <p>
+                                        The structure of the Bronco Startup Challenge is simple. We begin with an kickoff party to start the 3 month long sprint for business ideas, throw several workshops, mixers, and events midway through the process, and wrap up with an awards ceremony.
+                                    </p>
+                                </div>
+                            </div><!--about us box end-->
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="about-box wow animated fadeInDown" data-wow-delay="0.8s">
+                                <div class="about-box-icon">
+                                    <i class="ion-person-stalker"></i>
+                                </div>
+                                <div class="about-box-text">
+                                    <h4>The Judges and Judging Process </h4>
+                                    <p>
+                                        The judges are well-known entrepreneurs and come from all kinds of backgrounds! We will be following a rubric which will judge your business idea on various categories such as innovativeness, scalability, and more.
+                                    </p>
+                                </div>
+                            </div><!--about us box end-->
+                        </div>
+                    </div><!--about services row end-->
+                    <div class="about-section-more">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="about-more-info wow animated fadeInUp" data-wow-delay="0.3s">
+                                    <p>From ideation to business plan and beyond, the competition is designed to grow the horizons of innovative students. It is about startups, young and innovative companies who aim to disrupt and change the status quos. So what are you going to do to change this world? Scroll down to submit yours and check out the dates to your right!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="skills-wrapper wow animated bounceIn" data-wow-delay="0.6s">
+                                    <h3 class="heading-progress"> The Competition Begins <span class="pull-right">Feb. 11th</span></h3>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: 60%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="60" role="progressbar">
+                                        </div>
+                                    </div>
+                                    <h3 class="heading-progress"><b>Ideate &amp; Innovate!</b> <span class="pull-right">Feb. 11th - Mar 25th</span></h3>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: 80%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar">
+                                        </div>
+                                    </div>
+                                    <h3 class="heading-progress"> Closing Ceremony/Winners Announced<span class="pull-right">May 12th</span></h3>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: 100%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="100" role="progressbar">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--section about 3 end-->
+                </div>
+            </div>
+
+         <!--pricing table section start here-->
+
+
+        <section id="pricing" class="padding-80" style="background-color:#2ecc71;">
+
+
+
+            <div class="pricing-section-1" style="background-color:#2ecc71;">
+                <div class="container">
+                    <div class="section-heading text-center">
+                       <h4 class="small section-title"><span>What you Waiting for?</span></h4>
+                        <h2 class="large section-title">Submit a Proposal</h2> </br>
+                          <div id="blue" onclick="confidence()"><a style="color:white;width:30%;height:30%;"><p class="btn btn-theme transparent">Enter the Portal</p></a></div> </br>
+                          <p id="red" class="btn btn-theme transparent" style="color:gray;border-color:gray;visibility:hidden;">Portal Opens February 11th!</p>
+                    </div><!--section heading-->
+                </div><!--section heading-->
+
+
+        </section> <!--pricing table section end here-->
+
+                        <div class="purchase-now" id="timeline1" >
+                <div class="container">
+                    <div class="row">
+
+   <div class="section-heading text-center">
+                        <h4 class="small section-title"><span>Extended Bronco Startup Challenge Timeline</span></h4>
+                        <h2 class="large section-title">Important Dates</h2>
+                        <p>Initial Submission Deadline: 3/25/16<br>
+Finalists will be notified: 4/4/16<br>
+Final Presentation Draft Due: 5/2/16 <br></p>
+                    </div><!--section heading-->
+<ul id='timeline'>
+  <li class='work'>
+    <input class='radio' id='work5' name='works' type='radio' checked>
+    <div class="relative">
+      <label for='work5' style="margin-left:20px;">Kickoff</label>
+      <span class='date'>February 11</span>
+      <span class='circle'></span>
+    </div>
+    <div class='contentLeague'>
+      <p>
+        <b>12 - 1 PM @ Lyra</b><br>
+        Be sure you’re at the opening kickoff of the Bronco Startup Challenge at Lyra during U-hour! Stick around afterward and meet your competition.
+      </p>
+    </div>
+  </li>
+  <li class='work'>
+    <input class='radio' id='work4' name='works' type='radio'>
+    <div class="relative">
+      <label for='work4' style="margin-left:20px;">Workshops/Mixers/Events</label>
+      <span class='date'> Feb. 11 - Mar. 25</span>
+      <span class='circle'></span>
+    </div>
+    <div class='contentLeague'>
+      <p >
+        Make sure to check out these workshops hosted by our highly esteemed College of Business faculty. <br>
+<b>Workshop 1 : 2/18 by Nelson Pizarro (12:00-1:00pm) in Ramsey Room (REQUIRED FOR ALL COMPETITORS)</b>
+<br>
+Workshop 2: 2/23 by Edmond Wu (5:00-6:00pm) Ramsey Room
+<br>
+Workshop 3: 3/2 by Nelson Pizarro (12:00-1:00pm) Ramsey Room <br>
+           <i>Poly Founders &amp; CEO will have entrepreneurship oriented meetings in these oncoming months so we highly urge you to drop by and see what you can learn.</i>
+      </p>
+    </div>
+  </li>
+  <li class='work'>
+    <input class='radio' id='work3' name='works' type='radio'>
+    <div class="relative">
+      <label for='work3' style="margin-left:20px;">Finals Ceremony</label>
+      <span class='date'>May 12</span>
+      <span class='circle'></span>
+    </div>
+    <div class='contentLeague'>
+      <p>
+        <b>5 - 9 PM @ Ursa Major</b><br> Head over to our award ceremony for free dinner and to see our industry judges critique the winning broncos! See the top five businesses pitch and compete for up to $10,000 in cash prizes! <br>
+         <i>Business Professional required for participants and business casual highly urged for attendees. </i> 
+      </p>
+    </div>
+  </li>
+  <!-- <li class='work'>
+    <input class='radio' id='work2' name='works' type='radio'>
+    <div class="relative">
+      <label for='work2' style="margin-left:20px;">Lorem ipsum dolor sit amet</label>
+      <span class='date'>October 14</span>
+      <span class='circle'></span>
+    </div>
+    <div class='contentLeague'>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt! Molestiae officiis voluptate excepturi rem veritatis eum aliquam qui laborum non ipsam ullam tempore reprehenderit illum eligendi cumque mollitia temporibus! Natus dicta qui est optio rerum.
+      </p>
+    </div>
+  </li>
+  <li class='work'>
+    <input class='radio' id='work1' name='works' type='radio'>
+    <div class="relative">
+      <label for='work1' style="margin-left:20px;">Lorem ipsum dolor sit amet</label>
+      <span class='date'>October 14</span>
+      <span class='circle'></span>
+    </div>
+    <div class='contentLeague'>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt! Molestiae officiis voluptate excepturi rem veritatis eum aliquam qui laborum non ipsam ullam tempore reprehenderit illum eligendi cumque mollitia temporibus! Natus dicta qui est optio rerum.
+      </p>
+    </div>
+  </li> -->
+</ul>
+
+                    </div>
+                </div>
+            </div>
+            <!--page about content end here-->
+        </section>
+        <!--about section end here-->
+
+
+
+        <!--section services start here-->
+
+        <section id="services" class="padding-80" style="background-color:#2ecc71;">
+
+
+            <div class="services-section-1">
+                <div class="container">
+                    <div class="section-heading text-center">
+                        <h4 class="small section-title"><span>Partners</span></h4>
+                        <h2 class="large section-title">Checkout these awesome organizations!</h2>
+                             <p>
+                                    This event would not be possible without these organizations, each of whom is deeply committed to empowering student innovators.
+
+                    </div><!--section heading-->
+
+                </div><!--container-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="margin-btm-40">
+
+                                                       </div>
+                        </div>
+                    </div>
+                    <div class="row" id="centered">
+
+                                <a target="_blank" href="http://www.cpp.edu/~cba/"><img class="partner" src="assets/cba.png" id="collegeofbusiness"></img> </a>
+                                <a href="http://polyfounders.com/" target="_blank"><img class="partner" src="assets/polyfounders.png" id="polyfounders"></img> </a>
+                                <a href="http://cppceo.com" target="_blank"><img class="partner" src="assets/ceo.png" id="ceo"></img> </a>
+
+                    </div>
+                </div>
+            </div><!--services section 1 end-->
+
+        </section>
+        <!--section services end here-->
+
+        <!--our work section start here-->
+
+
+        <!--our work section end-->
+        <section id="judges" >
+            <div class="work-section-2" style="padding-bottom:80px;padding-top:70px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center margin-btm-40">
+                            <div class="section-heading text-center">
+                                <h4 class="small section-title"><span>Here are</span></h4>
+                                <h2 class="large section-title">The Judges</h2>
+                                <h2>TBA</h2>
+                                <p><i>Interested in judging? <b>Email info@polyfounders.com</b> and we'll get back to you shortly.</i></p>
+                            </div><!--section heading-->
+                        </div>
+
+                    </div><!--.row-->
+                </div><!--.container-->
+            </div><!--team section end-->
+      </section>
+
+
+        <section id="contact" class="padding-80" style="background-color:#5e5e5e;">
+
+
+            <div class="contact-sec-1">
+                <div class="container">
+                    <div class="section-heading text-center">
+                        <h4 class="small section-title"><span style="color:white;">We'd Love to hear from you  </span></h4>
+                        <h2 class="large section-title" style="color:#2ecc71;">Contact Us</h2>
+                    </div><!--section heading-->
+                </div><!--.container-->
+                <div class="container">
+<!--                     <div class="row">
+                        <div class="col-md-8">
+                            <h4>Get in touch</h4>
+
+                        </div>
+
+                    </div> -->
+                           <div class="services-section-2 wow animated fadeInUp" data-wow-delay=".4s" style="background-color: #2ecc71;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h1>Stay Updated!</h1>
+
+
+                            <form class="newsletter-form" action="http://polyfounders.us4.list-manage.com/subscribe?u=77d4f689668566a9b77a4e7fe&id=16c87f8aa4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                <div class="row">
+                                    <div class="col-sm-4 col-sm-offset-4">
+                                        <div class="input-group">
+                                            <label class="sr-only" for="subscribe-email">Email address</label>
+                                            <input type="email" class="form-control" id="subscribe-email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
+                                            <span class="input-group-btn">
+                                                <button type="submit" class="btn btn-theme-color btn-lg" id="mc-embedded-subscribe">OK</button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div><!--services section 1 end-->
+                </div>
+            </div><!--Contact-sec-1 end-->
+
+        </section><!--contact section end-->
+              <div class="contact-sec-2">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="contact-col wow animated flipInY" data-wow-delay=".3s">
+                            <a href="https://www.facebook.com/polyfounders"><i class="ion-social-facebook"></i></a>
+                            <p>Stay Updated by Liking Us!</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="contact-col wow animated flipInY" data-wow-delay=".3s">
+                            <a href="mailto:info@polyfounders.com"><i class="ion-email"></i></a>
+                            <p>info@polyfounders.com</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="contact-col wow animated flipInY" data-wow-delay=".3s">
+                            <a href="https://twitter.com/polyfounders"><i class="ion-social-twitter"></i></a>
+                            <p>Follow us on Twitter!</p>
+                        </div>
+                    </div>
+                </div>
+                  </div>
+
+        <section id="footer" class="padding-80">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-8 copyright">
+                        <span>&copy;2016.Poly Founders. All Right Reserved. Designed and Developed by <a class="finally" target="_blank" href="http://cnibungco.github.io" style="color:#2ecc71;font-size:20px;">Camille Nibungco</a></span>
+
+                    </div>
+                     <div class="col-md-4 col-sm-4 footer-nav">
+                        <a href="http://www.polyfounders.com"><img src="assets/footer.png" style="width:200px;"></a>
+                    </div>
+                </div>
+            </div>
+        </section><!--footer end-->
+        <!--script files-->
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/jquery.easing.1.3.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/jquery.mixitup.min.js" type="text/javascript"></script>
+        <script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+        <script src="js/wow.min.js" type="text/javascript"></script>
+        <script src="js/jquery.sticky.js" type="text/javascript"></script>
+        <script src="js/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+        <script src="js/jquery.stellar.min.js" type="text/javascript"></script>
+        <script src="js/custom.js" type="text/javascript"></script>
+         <script src="js/prefixfree.min.js"></script>
+    </body>
+</html>
