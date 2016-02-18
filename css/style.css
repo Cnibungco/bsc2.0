@@ -82,6 +82,10 @@ a:focus {
 .partner{
     width: 300px;
 }
+.partner-ilab{
+    margin-top: 30px;
+    width:500px;
+}
 /*****************home ********
 ******************************/
 #splash {
