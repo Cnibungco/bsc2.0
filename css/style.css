@@ -63,8 +63,12 @@ a:hover,
 a:focus {
     outline: 0; 
     background: transparent;
-    color: #2ecc71 !important;
-    text-decoration: none;	  
+    color: black !important;
+    text-decoration: none;
+}
+#temp{
+    text-decoration: none;
+    color: white;
 }
 .padding-80{
     padding: 80px 0;
