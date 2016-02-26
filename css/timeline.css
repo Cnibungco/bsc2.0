@@ -83,7 +83,7 @@ label {
 }
 
 .radio {
-  display: none;
+  display:none;
 }
 
 .radio:checked + .relative label {
